@@ -2,6 +2,6 @@ FROM eclipse-temurin:17-jre-alpine
 
 WORKDIR /app
 
-COPY HelloWorld.class .
+COPY helloworld.class .
 
 CMD ["java", "HelloWorld"]
