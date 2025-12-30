@@ -1,7 +1,5 @@
 FROM eclipse-temurin:17-jre-alpine
-
 WORKDIR /app
-
-COPY helloworld.class .
-
-CMD ["java", "helloworld"]
+COPY app.jar app.jar
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","app.jar"]
