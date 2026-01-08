@@ -11,7 +11,7 @@ public class helloworld {
 
   @GetMapping("/")
   public String hello() {
-    return "Hello from Kubernetes version 26 issue resolved hurry.....";
+    return "Hello from Kubernetes version 27 Version";
   }
 
   public static void main(String[] args) {
